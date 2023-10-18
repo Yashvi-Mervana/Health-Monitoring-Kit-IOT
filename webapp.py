@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 
-loaded_model = pickle.load(open('C:\Users\yashu\Desktop\IOE\trainedmmodel.sav', 'rb'))
+loaded_model = pickle.load(open('trainedmmodel.sav', 'rb'))
 
 #create function
 
